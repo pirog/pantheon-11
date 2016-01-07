@@ -1,0 +1,11 @@
+git:
+  binary: cli:git
+  description: Run a git command on your codebase
+rysnc:
+  binary: cli:/bin/rsync
+  description: Run a rsync command on your codebase
+bash:
+  binary: cli:/bin/bash
+  description: Bash into your codebase
+curl:
+  binary: cli:/bin/bash

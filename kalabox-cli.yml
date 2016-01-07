@@ -1,0 +1,13 @@
+cli:
+  image: kalabox/cli:dev
+  dns:
+    - 8.8.8.8
+  volumes:
+    - /Users/pirog/Desktop/apps/pantheon:/src:rw
+  environment:
+    TERM: xterm-color
+  links:
+    - db:database
+  working_dir: /src/code/drops-7
+  stdin_open: true
+  tty: true

@@ -1,0 +1,2 @@
+CREATE DATABASE pantheon;
+GRANT ALL PRIVILEGES ON *.* TO pantheon@'%';
